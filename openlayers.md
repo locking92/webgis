@@ -44,3 +44,35 @@ See the following examples for more detail on bundling OpenLayers with your appl
 
 
 See our [GitHub sponsors page](https://github.com/sponsors/openlayers) or [Open Collective](https://opencollective.com/openlayers/contribute/sponsors-214/checkout) if you too are interested in becoming a regular sponsor.
+
+
+
+
+
+{
+  "name": "webgis",
+  "version": "1.0.0",
+  "description": "웹기반서비스 구현하기 (공간정보서비스 개발)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locking92/webgis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locking92/webgis/issues"
+  },
+  "homepage": "https://github.com/locking92/webgis#readme",
+  "dependencies": {
+    "ol": "^6.14.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

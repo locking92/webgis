@@ -9,3 +9,34 @@ Install the [`ol` package](https://www.npmjs.com/package/ol):
 ```
 npm install ol
 ```
+
+Import just what you need for your application:
+
+```js
+import Map from 'ol/Map';
+import View from 'ol/View';
+import TileLayer from 'ol/layer/Tile';
+import XYZ from 'ol/source/XYZ';
+
+new Map({
+  target: 'map',
+  layers: [
+    new TileLayer({
+      source: new XYZ({
+        url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+      })
+    })
+  ],
+  view: new View({
+    center: [0, 0],
+    zoom: 2
+  })
+});
+```
+
+See the following examples for more detail on bundling OpenLayers with your application:
+
+ * Using [Vite](https://github.com/openlayers/ol-vite)
+ * Using [Rollup](https://github.com/openlayers/ol-rollup)
+ * Using [webpack](https://github.com/openlayers/ol-webpack)
+ * Using [Parcel](https://github.com/openlayers/ol-parcel)

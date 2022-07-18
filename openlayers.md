@@ -55,14 +55,6 @@ OpenLayers appreciates contributions of all kinds.  We especially want to thank 
 
 <br>
 
-[![yey'maps logo](./sponsor-logos/yeymaps.png)](https://www.yeymaps.io/)
-
-> yey'maps is a scalable cloud GIS suite that is developed with the
-> powerful Openlayers API and the GDAL library.
-> https://www.yeymaps.io/
-
-<br>
-
 [![GeoSolutions logo](./sponsor-logos/geosolutions.png)](https://www.geosolutionsgroup.com/)
 
 > Your one-stop-shop for geospatial open source software.
